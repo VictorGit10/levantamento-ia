@@ -1,0 +1,1981 @@
+[
+ {
+  "doi": "10.2903/j.efsa.2012.2915",
+  "ano": "2012",
+  "autor": "European Food Safety Authority",
+  "autores": "EFSA (2012)",
+  "titulo": "Conclusion on the peer review of the pesticide risk assessment of the active substance geraniol",
+  "revista": "EFSA Journal",
+  "citacoes": 8,
+  "fwci": "0.0",
+  "percentil": "58",
+  "acesso": "aberto (revista)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Algas",
+   "Daphnia",
+   "Peixe",
+   "Regulatório"
+  ],
+  "tipo": "Regulatório",
+  "score": 117,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + algas + daphnia + peixe + regulatório",
+  "frentes": [
+   "6-complemento-externo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1002/fft2.495",
+  "ano": "2024",
+  "autor": "Luo",
+  "autores": "Luo et al. (2024)",
+  "titulo": "Flavor compound geraniol induces inhibited nutrient utilization and developmental toxicity on embryonic–larval zebrafish",
+  "revista": "Food Frontiers",
+  "citacoes": 1,
+  "fwci": "0.22",
+  "percentil": "47",
+  "acesso": "aberto (revista)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 88,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.pestbp.2026.107218",
+  "ano": "2026",
+  "autor": "Konig",
+  "autores": "Konig et al. (2026)",
+  "titulo": "Developmental, behavioral, metabolomic, and lipidomic assessment of the insect repellent nootkatone reveals limited sublethal toxicity in developing zebrafish (Danio rerio)",
+  "revista": "Pesticide Biochemistry and Physiology",
+  "citacoes": 1,
+  "fwci": "3.22",
+  "percentil": "91",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone",
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 80,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1038/nature12111",
+  "ano": "2013",
+  "autor": "Howe",
+  "autores": "Howe et al. (2013)",
+  "titulo": "The zebrafish reference genome sequence and its relationship to the human genome",
+  "revista": "Nature",
+  "citacoes": 5108,
+  "fwci": "147.44",
+  "percentil": "99",
+  "acesso": "aberto (híbrido)",
+  "resumo": "resumos/howe2013/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 77,
+  "prioridade": "Essencial",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.2217/fmb-2018-0200",
+  "ano": "2018",
+  "autor": "Singulani",
+  "autores": "Singulani et al. (2018)",
+  "titulo": "Geraniol and Linalool Anticandidal Activity, Genotoxic Potential and Embryotoxic Effect on Zebrafish",
+  "revista": "Future Microbiology",
+  "citacoes": 41,
+  "fwci": "2.11",
+  "percentil": "86",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 75,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + zebrafish",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1787/9789264203709-en",
+  "ano": "2025",
+  "autor": "OECD",
+  "autores": "OECD (2025)",
+  "titulo": "Test No. 236: Fish Embryo Acute Toxicity (FET) Test",
+  "revista": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+  "citacoes": 694,
+  "fwci": "18.36",
+  "percentil": "99",
+  "acesso": "aberto (bronze)",
+  "resumo": "resumos/oecd2013/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 74,
+  "prioridade": "Essencial",
+  "motivo": "zebrafish + diretriz",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OFICIAL",
+  "revista_obs": "Documento de agência/diretriz, não periódico."
+ },
+ {
+  "doi": "10.1016/j.aquaculture.2021.736517",
+  "ano": "2021",
+  "autor": "Araújo",
+  "autores": "Araújo et al. (2021)",
+  "titulo": "Geraniol and citronellol as alternative and safe phytoconstituents to induce immobilization and facilitate handling of fish",
+  "revista": "Aquaculture",
+  "citacoes": 22,
+  "fwci": "3.15",
+  "percentil": "90",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Peixe"
+  ],
+  "tipo": "Experimental",
+  "score": 67,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + peixe",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1007/s10646-025-02898-5",
+  "ano": "2025",
+  "autor": "dos Santos Silva",
+  "autores": "dos Santos Silva et al. (2025)",
+  "titulo": "Assessing nanoencapsulated geraniol as a safer pesticide alternative: insights from biomarker responses in a neotropical fish species",
+  "revista": "Ecotoxicology",
+  "citacoes": 1,
+  "fwci": "0.42",
+  "percentil": "52",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Peixe"
+  ],
+  "tipo": "Experimental",
+  "score": 67,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + peixe",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.3390/molecules25143303",
+  "ano": "2020",
+  "autor": "Mączka",
+  "autores": "Mączka et al. (2020)",
+  "titulo": "One Hundred Faces of Geraniol",
+  "revista": "Molecules",
+  "citacoes": 182,
+  "fwci": "1.4",
+  "percentil": "78",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/maczka2020/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 65,
+  "prioridade": "Essencial",
+  "motivo": "composto-alvo + revisão",
+  "frentes": [
+   "6-complemento-externo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1002/aja.1002030302",
+  "ano": "1995",
+  "autor": "Kimmel",
+  "autores": "Kimmel et al. (1995)",
+  "titulo": "Stages of embryonic development of the zebrafish",
+  "revista": "Developmental Dynamics",
+  "citacoes": 12043,
+  "fwci": "30.06",
+  "percentil": "99",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1186/s12934-020-1295-6",
+  "ano": "2020",
+  "autor": "Meng",
+  "autores": "Meng et al. (2020)",
+  "titulo": "Metabolic engineering Saccharomyces cerevisiae for de novo production of the sesquiterpenoid (+)-nootkatone",
+  "revista": "Microbial Cell Factories",
+  "citacoes": 74,
+  "fwci": "3.32",
+  "percentil": "94",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/meng2020/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1093/molbev/msac002",
+  "ano": "2022",
+  "autor": "Conart",
+  "autores": "Conart et al. (2022)",
+  "titulo": "Duplication and Specialization of NUDX1 in Rosaceae Led to Geraniol Production in Rose Petals",
+  "revista": "Molecular Biology and Evolution",
+  "citacoes": 43,
+  "fwci": "2.69",
+  "percentil": "92",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/conart2022/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.3390/insects12050386",
+  "ano": "2021",
+  "autor": "Clarkson",
+  "autores": "Clarkson et al. (2021)",
+  "titulo": "Nootkatone Is an Effective Repellent against Aedes aegypti and Aedes albopictus",
+  "revista": "Insects",
+  "citacoes": 32,
+  "fwci": "3.01",
+  "percentil": "90",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/clarkson2021/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/insects16010051",
+  "ano": "2025",
+  "autor": "Lopez",
+  "autores": "Lopez et al. (2025)",
+  "titulo": "Repellency of Essential Oils and Plant-Derived Compounds Against Aedes aegypti Mosquitoes",
+  "revista": "Insects",
+  "citacoes": 18,
+  "fwci": "9.67",
+  "percentil": "98",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/lopez2025/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/ijms23158317",
+  "ano": "2022",
+  "autor": "de Andrade",
+  "autores": "de Andrade et al. (2022)",
+  "titulo": "Polymeric Nanorepellent Systems Containing Geraniol and Icaridin Aimed at Repelling Aedes aegypti",
+  "revista": "International Journal of Molecular Sciences",
+  "citacoes": 17,
+  "fwci": "1.79",
+  "percentil": "83",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/andrade2022/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/molecules25214923",
+  "ano": "2020",
+  "autor": "Niculau",
+  "autores": "Niculau et al. (2020)",
+  "titulo": "Chemical Profile and Use of the Peat as an Adsorbent for Extraction of Volatile Compounds from Leaves of Geranium (Pelargonium graveolens L’ Herit)",
+  "revista": "Molecules",
+  "citacoes": 14,
+  "fwci": "1.62",
+  "percentil": "82",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/niculau2020/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/toxics12060406",
+  "ano": "2024",
+  "autor": "Cavaco",
+  "autores": "Cavaco & Faria (2024)",
+  "titulo": "Phytochemical Volatiles as Potential Bionematicides with Safer Ecotoxicological Properties",
+  "revista": "Toxics",
+  "citacoes": 11,
+  "fwci": "2.67",
+  "percentil": "89",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/cavaco2024/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1016/j.cub.2024.10.067",
+  "ano": "2025",
+  "autor": "Fernandez Triana",
+  "autores": "Fernandez Triana et al. (2025)",
+  "titulo": "Grapefruit-derived nootkatone potentiates GABAergic signaling and acts as a dual-action mosquito repellent and insecticide",
+  "revista": "Current Biology",
+  "citacoes": 10,
+  "fwci": "2.43",
+  "percentil": "88",
+  "acesso": "aberto (híbrido)",
+  "resumo": "resumos/triana2024/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.3390/plants13152046",
+  "ano": "2024",
+  "autor": "Faria",
+  "autores": "Faria et al. (2024)",
+  "titulo": "Nematicidal Activity of Volatiles against the Rice Root-Knot Nematode and Environmental Safety in Comparison to Traditional Nematicides",
+  "revista": "Plants",
+  "citacoes": 6,
+  "fwci": "1.46",
+  "percentil": "80",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/faria2024/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/ph18081232",
+  "ano": "2025",
+  "autor": "Stojković",
+  "autores": "Stojković et al. (2025)",
+  "titulo": "Neuromuscular System of Nematodes Is a Target of Synergistic Pharmacological Effects of Carvacrol and Geraniol",
+  "revista": "Pharmaceuticals",
+  "citacoes": 5,
+  "fwci": "5.99",
+  "percentil": "96",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/stojkovic2025/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1038/s41598-025-97702-z",
+  "ano": "2025",
+  "autor": "Khallaf",
+  "autores": "Khallaf et al. (2025)",
+  "titulo": "Antiparasitic efficacy of geraniol from Apiaceae family in scabies treatment",
+  "revista": "Scientific Reports",
+  "citacoes": 3,
+  "fwci": "1.61",
+  "percentil": "81",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/khallaf2025/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.3390/insects17040385",
+  "ano": "2026",
+  "autor": "Feliciano",
+  "autores": "Feliciano & Piermarini (2026)",
+  "titulo": "Impact of Pyrethroid Resistance on the Intrinsic Insecticidal Activities of Geraniol Against the Yellow Fever Mosquito, Aedes aegypti",
+  "revista": "Insects",
+  "citacoes": 1,
+  "fwci": "3.67",
+  "percentil": "89",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/feliciano2026/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/pharmaceutics18010039",
+  "ano": "2025",
+  "autor": "Cebollada",
+  "autores": "Cebollada et al. (2025)",
+  "titulo": "Antibacterial Activity of Palmarosa (Cymbopogon martini (Roxb.) Will.Watson) Essential Oil and Geraniol Against Clinical Isolates from Respiratory, Skin, and Soft Tissue Infections",
+  "revista": "Pharmaceutics",
+  "citacoes": 1,
+  "fwci": "0.47",
+  "percentil": "70",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/cebollada2025/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 61,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1093/toxsci/kfy044",
+  "ano": "2018",
+  "autor": "Horzmann",
+  "autores": "Horzmann & Freeman (2018)",
+  "titulo": "Making Waves: New Developments in Toxicology With the Zebrafish",
+  "revista": "Toxicological Sciences",
+  "citacoes": 336,
+  "fwci": "2.22",
+  "percentil": "90",
+  "acesso": "aberto (repositório)",
+  "resumo": "resumos/horzmann2018/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 59,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1787/9789264069961-en",
+  "ano": "2025",
+  "autor": "OECD",
+  "autores": "OECD (2025)",
+  "titulo": "Test No. 203: Fish, Acute Toxicity Test",
+  "revista": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+  "citacoes": 455,
+  "fwci": "7.47",
+  "percentil": "96",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 58,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + diretriz",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OFICIAL",
+  "revista_obs": "Documento de agência/diretriz, não periódico."
+ },
+ {
+  "doi": "10.1787/9789264069923-en",
+  "ano": "2026",
+  "autor": "OECD",
+  "autores": "OECD (2026)",
+  "titulo": "Test No 201 Alga Growth Inhibition Test",
+  "revista": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+  "citacoes": 253,
+  "fwci": "3.33",
+  "percentil": "94",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 58,
+  "prioridade": "Contexto",
+  "motivo": "algas + diretriz",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OFICIAL",
+  "revista_obs": "Documento de agência/diretriz, não periódico."
+ },
+ {
+  "doi": "10.1787/9789264203785-en",
+  "ano": "2025",
+  "autor": "OECD",
+  "autores": "OECD (2025)",
+  "titulo": "Test No. 210: Fish, Early-life Stage Toxicity Test",
+  "revista": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+  "citacoes": 116,
+  "fwci": "3.7",
+  "percentil": "93",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 58,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + diretriz",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OFICIAL",
+  "revista_obs": "Documento de agência/diretriz, não periódico."
+ },
+ {
+  "doi": "10.1186/s12302-022-00623-1",
+  "ano": "2022",
+  "autor": "Hund-Rinke",
+  "autores": "Hund-Rinke et al. (2022)",
+  "titulo": "Testing particles using the algal growth inhibition test (OECD 201): the suitability of in vivo chlorophyll fluorescence measurements",
+  "revista": "Environmental Sciences Europe",
+  "citacoes": 25,
+  "fwci": "1.77",
+  "percentil": "82",
+  "acesso": "aberto (revista)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 58,
+  "prioridade": "Contexto",
+  "motivo": "algas + diretriz",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1038/s41598-018-26331-6",
+  "ano": "2018",
+  "autor": "Suzuki",
+  "autores": "Suzuki et al. (2018)",
+  "titulo": "Raphidocelis subcapitata (=Pseudokirchneriella subcapitata) provides an insight into genome evolution and environmental adaptations in the Sphaeropleales",
+  "revista": "Scientific Reports",
+  "citacoes": 78,
+  "fwci": "2.84",
+  "percentil": "92",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/suzuki2018/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 57,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1146/annurev-pharmtox-051421-105617",
+  "ano": "2023",
+  "autor": "MacRae",
+  "autores": "MacRae & Peterson (2023)",
+  "titulo": "Zebrafish as a Mainstream Model for In Vivo Systems Pharmacology and Toxicology",
+  "revista": "The Annual Review of Pharmacology and Toxicology",
+  "citacoes": 71,
+  "fwci": "1.79",
+  "percentil": "87",
+  "acesso": "aberto (híbrido)",
+  "resumo": "resumos/macrae2022/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 56,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.3390/jcdd8020017",
+  "ano": "2021",
+  "autor": "Kemmler",
+  "autores": "Kemmler et al. (2021)",
+  "titulo": "From Stripes to a Beating Heart: Early Cardiac Development in Zebrafish",
+  "revista": "Journal of Cardiovascular Development and Disease",
+  "citacoes": 61,
+  "fwci": "1.02",
+  "percentil": "72",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/kemmler2021/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 56,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.3390/toxics9010008",
+  "ano": "2021",
+  "autor": "Vieira",
+  "autores": "Vieira et al. (2021)",
+  "titulo": "Teratogenic, Oxidative Stress and Behavioural Outcomes of Three Fungicides of Natural Origin (Equisetum arvense, Mimosa tenuiflora, Thymol) on Zebrafish (Danio rerio)",
+  "revista": "Toxics",
+  "citacoes": 16,
+  "fwci": "0.98",
+  "percentil": "66",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/vieira2021/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 56,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1653/024.101.0321",
+  "ano": "2018",
+  "autor": "Addesso",
+  "autores": "Addesso et al. (2018)",
+  "titulo": "Evaluation of a Lignin-Encapsulated Nootkatone Formulation AgainstTetranychus urticae(Acari: Tetranychidae)",
+  "revista": "Florida Entomologist",
+  "citacoes": 8,
+  "fwci": "0.22",
+  "percentil": "58",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/addesso2018/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 56,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1007/s11356-014-3814-7",
+  "ano": "2014",
+  "autor": "Braunbeck",
+  "autores": "Braunbeck et al. (2014)",
+  "titulo": "The fish embryo test (FET): origin, applications, and future",
+  "revista": "Environmental Science and Pollution Research",
+  "citacoes": 239,
+  "fwci": "7.81",
+  "percentil": "98",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 53,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + diretriz",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.pestbp.2022.105085",
+  "ano": "2022",
+  "autor": "Norris",
+  "autores": "Norris et al. (2022)",
+  "titulo": "Mode of action and toxicological effects of the sesquiterpenoid, nootkatone, in insects",
+  "revista": "Pesticide Biochemistry and Physiology",
+  "citacoes": 31,
+  "fwci": "1.96",
+  "percentil": "87",
+  "acesso": "aberto (bronze)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 53,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1002/fsn3.4653",
+  "ano": "2024",
+  "autor": "Moriki",
+  "autores": "Moriki et al. (2024)",
+  "titulo": "Pharmacokinetics of Geraniol and Its Metabolites in Mice After Oral Administration",
+  "revista": "Food Science & Nutrition",
+  "citacoes": 7,
+  "fwci": "1.65",
+  "percentil": "82",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 53,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.vetpar.2026.110886",
+  "ano": "2026",
+  "autor": "de Oliveira Chaves",
+  "autores": "de Oliveira Chaves et al. (2026)",
+  "titulo": "In vitro insecticidal and repellent activity of Cymbopogon essential oils and geraniol against cat flea",
+  "revista": "Veterinary Parasitology",
+  "citacoes": 0,
+  "fwci": "0.0",
+  "percentil": "31",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 53,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.3390/toxins18060258",
+  "ano": "2026",
+  "autor": "Darrag",
+  "autores": "Darrag et al. (2026)",
+  "titulo": "Algicidal Monoterpenes Against Toxin-Producing Microcystis aeruginosa with Reduced Toxicity Toward Chlorella sorokiniana: In Vitro, Molecular Docking, and ADMET Study",
+  "revista": "Toxins",
+  "citacoes": 0,
+  "fwci": "0.0",
+  "percentil": "28",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/darrag2026/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Algas",
+   "Peixe",
+   "Análogo"
+  ],
+  "tipo": "Experimental",
+  "score": 53,
+  "prioridade": "Contexto",
+  "motivo": "algas + peixe + análogo",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1016/j.sajb.2010.05.008",
+  "ano": "2010",
+  "autor": "Chen",
+  "autores": "Chen & Viljoen (2010)",
+  "titulo": "Geraniol — A review of a commercially important fragrance material",
+  "revista": "South African Journal of Botany",
+  "citacoes": 554,
+  "fwci": "14.13",
+  "percentil": "99",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 52,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo + revisão",
+  "frentes": [
+   "6-complemento-externo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.chemosphere.2024.142246",
+  "ano": "2024",
+  "autor": "di Domenico",
+  "autores": "di Domenico et al. (2024)",
+  "titulo": "Reviewing the use of zebrafish for the detection of neurotoxicity induced by chemical mixtures through the analysis of behaviour",
+  "revista": "Chemosphere",
+  "citacoes": 18,
+  "fwci": "0.95",
+  "percentil": "68",
+  "acesso": "aberto (híbrido)",
+  "resumo": "resumos/domenico2024/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 52,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + revisão",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.14573/altex.1808101",
+  "ano": "2019",
+  "autor": "Birke",
+  "autores": "Birke & Scholz (2019)",
+  "titulo": "Zebrafish embryo and acute fish toxicity test show similar sensitivity for narcotic compounds",
+  "revista": "ALTEX",
+  "citacoes": 14,
+  "fwci": "0.69",
+  "percentil": "66",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/birke2018/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 51,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1093/jmedent/42.3.352",
+  "ano": "2005",
+  "autor": "Panella",
+  "autores": "Panella et al. (2005)",
+  "titulo": "Use of Novel Compounds for Pest Control: Insecticidal and Acaricidal Activity of Essential Oil Components from Heartwood of Alaska Yellow Cedar",
+  "revista": "Journal of Medical Entomology",
+  "citacoes": 186,
+  "fwci": "8.73",
+  "percentil": "97",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 48,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1603/me10241",
+  "ano": "2012",
+  "autor": "Jordan",
+  "autores": "Jordan et al. (2012)",
+  "titulo": "Efficacy of Plant-Derived and Synthetic Compounds on Clothing as Repellents AgainstIxodes scapularisandAmblyomma americanum(Acari: Ixodidae)",
+  "revista": "Journal of Medical Entomology",
+  "citacoes": 72,
+  "fwci": "4.01",
+  "percentil": "93",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 48,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1603/me11251",
+  "ano": "2012",
+  "autor": "Bharadwaj",
+  "autores": "Bharadwaj et al. (2012)",
+  "titulo": "Efficacy and Environmental Persistence of Nootkatone for the Control of the Blacklegged Tick (Acari: Ixodidae) in Residential Landscapes",
+  "revista": "Journal of Medical Entomology",
+  "citacoes": 44,
+  "fwci": "1.18",
+  "percentil": "75",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 48,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.jece.2022.108323",
+  "ano": "2022",
+  "autor": "Carneiro",
+  "autores": "Carneiro et al. (2022)",
+  "titulo": "Oxidative stress as the trigger for menthol-induced developmental alterations in zebrafish (Danio rerio) model",
+  "revista": "Journal of environmental chemical engineering",
+  "citacoes": 16,
+  "fwci": "1.61",
+  "percentil": "80",
+  "acesso": "aberto (híbrido)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 48,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1787/9789264070141-en",
+  "ano": "1998",
+  "autor": "OECD",
+  "autores": "OECD (1998)",
+  "titulo": "Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages",
+  "revista": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+  "citacoes": 63,
+  "fwci": "0.0",
+  "percentil": "47",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Diretriz"
+  ],
+  "tipo": "Diretriz",
+  "score": 45,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + diretriz",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OFICIAL",
+  "revista_obs": "Documento de agência/diretriz, não periódico."
+ },
+ {
+  "doi": "10.1002/bmc.5197",
+  "ano": "2021",
+  "autor": "Qin",
+  "autores": "Qin et al. (2021)",
+  "titulo": "Determination of nootkatone in rat plasma by LC–tandem mass spectrometry and its application in a pharmacokinetic study",
+  "revista": "Biomedical Chromatography",
+  "citacoes": 8,
+  "fwci": "0.5",
+  "percentil": "53",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 45,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.cbpc.2025.110231",
+  "ano": "2025",
+  "autor": "de Paula Santos",
+  "autores": "de Paula Santos et al. (2025)",
+  "titulo": "Assessing the impacts of nanoencapsulated geraniol on amphibians: A step toward sustainable pesticide alternatives?",
+  "revista": "Comparative Biochemistry and Physiology Part C Toxicology & Pharmacology",
+  "citacoes": 0,
+  "fwci": "0.0",
+  "percentil": "6",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Geraniol"
+  ],
+  "tipo": "Experimental",
+  "score": 45,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "3-geraniol"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.toxrep.2025.101980",
+  "ano": "2025",
+  "autor": "Pourshaban-Shahrestani",
+  "autores": "Pourshaban-Shahrestani et al. (2025)",
+  "titulo": "Zebrafish as a model for assessing biocide toxicity: A comprehensive review",
+  "revista": "Toxicology Reports",
+  "citacoes": 4,
+  "fwci": "0.45",
+  "percentil": "44",
+  "acesso": "aberto (revista)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 44,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + revisão",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1002/etc.5620080807",
+  "ano": "1989",
+  "autor": "Nyholm",
+  "autores": "Nyholm & Källqvist (1989)",
+  "titulo": "METHODS FOR GROWTH INHIBITION TOXICITY TESTS WITH FRESHWATER ALGAE",
+  "revista": "Environmental Toxicology and Chemistry",
+  "citacoes": 159,
+  "fwci": "6.18",
+  "percentil": "97",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 43,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/0043-1354(85)90085-5",
+  "ano": "1985",
+  "autor": "Nyholm",
+  "autores": "Nyholm (1985)",
+  "titulo": "Response variable in algal growth inhibition tests—Biomass or growth rate?",
+  "revista": "Water Research",
+  "citacoes": 108,
+  "fwci": "2.28",
+  "percentil": "86",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 43,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.chemosphere.2018.04.047",
+  "ano": "2018",
+  "autor": "Kusk",
+  "autores": "Kusk et al. (2018)",
+  "titulo": "Algal growth inhibition test results of 425 organic chemical substances",
+  "revista": "Chemosphere",
+  "citacoes": 54,
+  "fwci": "1.48",
+  "percentil": "76",
+  "acesso": "aberto (repositório)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 43,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "6-complemento-externo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.ecoenv.2017.10.010",
+  "ano": "2018",
+  "autor": "Rico",
+  "autores": "Rico et al. (2018)",
+  "titulo": "Effects of temperature, genetic variation and species competition on the sensitivity of algae populations to the antibiotic enrofloxacin",
+  "revista": "Ecotoxicology and Environmental Safety",
+  "citacoes": 39,
+  "fwci": "1.72",
+  "percentil": "83",
+  "acesso": "aberto (repositório)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 43,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1038/s41598-025-25440-3",
+  "ano": "2025",
+  "autor": "Muhammed",
+  "autores": "Muhammed et al. (2025)",
+  "titulo": "Ecotoxicological impact of mosquitocidal jasmine-based oils nanoemulsion on Nile tilapia fish Oreochromis niloticus",
+  "revista": "Scientific Reports",
+  "citacoes": 2,
+  "fwci": "0.84",
+  "percentil": "70",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/muhammed2025/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Peixe"
+  ],
+  "tipo": "Experimental",
+  "score": 43,
+  "prioridade": "Contexto",
+  "motivo": "peixe",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1021/acs.jafc.2c07543",
+  "ano": "2022",
+  "autor": "Zhang",
+  "autores": "Zhang et al. (2022)",
+  "titulo": "Production, Function, and Applications of the Sesquiterpenes Valencene and Nootkatone: a Comprehensive Review",
+  "revista": "Journal of Agricultural and Food Chemistry",
+  "citacoes": 56,
+  "fwci": "1.03",
+  "percentil": "67",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 41,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo + revisão",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.3390/biomedicines11102821",
+  "ano": "2023",
+  "autor": "da Silva",
+  "autores": "da Silva et al. (2023)",
+  "titulo": "Essential Oils Produce Developmental Toxicity in Zebrafish Embryos and Cause Behavior Changes in Zebrafish Larvae",
+  "revista": "Biomedicines",
+  "citacoes": 15,
+  "fwci": "2.16",
+  "percentil": "87",
+  "acesso": "aberto (revista)",
+  "resumo": "resumos/silva2023/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Análogo"
+  ],
+  "tipo": "Experimental",
+  "score": 41,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + análogo",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex. MDPI: não consta na lista do Beall (o próprio site diz que a excluiu), mas é editora de acesso aberto com debate público sobre qualidade; os periódicos do corpus estão no DOAJ/OpenAlex."
+ },
+ {
+  "doi": "10.1093/jmedent/43.5.957",
+  "ano": "2006",
+  "autor": "Dietrich",
+  "autores": "Dietrich et al. (2006)",
+  "titulo": "Repellent Activity of Fractioned Compounds fromChamaecyparis nootkatensisEssential Oil Against NymphalIxodes scapularis(Acari: Ixodidae)",
+  "revista": "Journal of Medical Entomology",
+  "citacoes": 58,
+  "fwci": "2.86",
+  "percentil": "90",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1603/me10282",
+  "ano": "2011",
+  "autor": "Behle",
+  "autores": "Behle et al. (2011)",
+  "titulo": "A Formulation to Encapsulate Nootkatone for Tick Control",
+  "revista": "Journal of Medical Entomology",
+  "citacoes": 19,
+  "fwci": "0.38",
+  "percentil": "69",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Nootkatone"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "composto-alvo",
+  "frentes": [
+   "2-nootkatone"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.cbpc.2023.109602",
+  "ano": "2023",
+  "autor": "Tao",
+  "autores": "Tao et al. (2023)",
+  "titulo": "Eugenol exposure inhibits embryonic development and swim bladder formation in zebrafish",
+  "revista": "Comparative Biochemistry and Physiology Part C Toxicology & Pharmacology",
+  "citacoes": 19,
+  "fwci": "2.17",
+  "percentil": "86",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.aquatox.2022.106220",
+  "ano": "2022",
+  "autor": "Kreutzer",
+  "autores": "Kreutzer et al. (2022)",
+  "titulo": "Passive dosing: Assessing the toxicity of individual PAHs and recreated mixtures to the microalgae Raphidocelis subcapitata",
+  "revista": "Aquatic Toxicology",
+  "citacoes": 17,
+  "fwci": "1.47",
+  "percentil": "77",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1002/etc.5339",
+  "ano": "2022",
+  "autor": "Castro",
+  "autores": "Castro et al. (2022)",
+  "titulo": "Differential Effects of Atrazine on Chlorophyceae Species and Association with Morphology, Photosynthesis, Chlorophyll Content, and Glutathione- S -Transferase Activity",
+  "revista": "Environmental Toxicology and Chemistry",
+  "citacoes": 15,
+  "fwci": "1.08",
+  "percentil": "68",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1007/s10646-025-02978-6",
+  "ano": "2025",
+  "autor": "Lindor",
+  "autores": "Lindor et al. (2025)",
+  "titulo": "Sensitivity of two green microalgae to clomazone: insights into oxidative stress and defense systems",
+  "revista": "Ecotoxicology",
+  "citacoes": 2,
+  "fwci": "0.84",
+  "percentil": "69",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1021/acsnano.6c09166",
+  "ano": "2026",
+  "autor": "Gong",
+  "autores": "Gong et al. (2026)",
+  "titulo": "Polystyrene Nanoplastics Disrupt Lateral Line Neuromasts and Impair Flow-Guided Behaviors in Zebrafish",
+  "revista": "ACS Nano",
+  "citacoes": 0,
+  "fwci": "0.0",
+  "percentil": "63",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1093/etojnl/vgag074",
+  "ano": "2026",
+  "autor": "Barrick",
+  "autores": "Barrick et al. (2026)",
+  "titulo": "Innovative method to measure response of cyanobacteria to copper exposure: implications for harmful algal research and management",
+  "revista": "Environmental Toxicology and Chemistry",
+  "citacoes": 0,
+  "fwci": "0.0",
+  "percentil": "12",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 40,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.chemosphere.2018.09.071",
+  "ano": "2019",
+  "autor": "Pino-Otín",
+  "autores": "Pino-Otín et al. (2019)",
+  "titulo": "Ecotoxicity of a novel biopesticide from Artemisia absinthium on non-target aquatic organisms",
+  "revista": "Chemosphere",
+  "citacoes": 55,
+  "fwci": "2.7",
+  "percentil": "89",
+  "acesso": "aberto (híbrido)",
+  "resumo": "resumos/pinootin2018/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Daphnia"
+  ],
+  "tipo": "Experimental",
+  "score": 38,
+  "prioridade": "Contexto",
+  "motivo": "daphnia",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1089/zeb.2021.0083",
+  "ano": "2022",
+  "autor": "Chowdhury",
+  "autores": "Chowdhury & Saikia (2022)",
+  "titulo": "Use of Zebrafish as a Model Organism to Study Oxidative Stress: A Review",
+  "revista": "Zebrafish",
+  "citacoes": 53,
+  "fwci": "1.32",
+  "percentil": "78",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish",
+   "Revisão"
+  ],
+  "tipo": "Revisão",
+  "score": 36,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish + revisão",
+  "frentes": [
+   "1-zebrafish-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.ecoenv.2010.08.028",
+  "ano": "2011",
+  "autor": "Masojídek",
+  "autores": "Masojídek et al. (2011)",
+  "titulo": "Detection of photosynthetic herbicides: Algal growth inhibition test vs. electrochemical photosystem II biosensor",
+  "revista": "Ecotoxicology and Environmental Safety",
+  "citacoes": 52,
+  "fwci": "1.95",
+  "percentil": "82",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 35,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1007/s10646-014-1339-y",
+  "ano": "2014",
+  "autor": "Minguez",
+  "autores": "Minguez et al. (2014)",
+  "titulo": "Comparison of the sensitivity of seven marine and freshwater bioassays as regards antidepressant toxicity assessment",
+  "revista": "Ecotoxicology",
+  "citacoes": 43,
+  "fwci": "3.04",
+  "percentil": "89",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 35,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.chemosphere.2014.05.040",
+  "ano": "2015",
+  "autor": "Fu",
+  "autores": "Fu et al. (2015)",
+  "titulo": "Evaluation of toxicity data to green algae and relationship with hydrophobicity",
+  "revista": "Chemosphere",
+  "citacoes": 40,
+  "fwci": "4.39",
+  "percentil": "94",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 35,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1039/c0em00105h",
+  "ano": "2010",
+  "autor": "Debenest",
+  "autores": "Debenest et al. (2010)",
+  "titulo": "Monitoring of a flame retardant (tetrabromobisphenol A) toxicity on different microalgae assessed by flow cytometry",
+  "revista": "Journal of Environmental Monitoring",
+  "citacoes": 26,
+  "fwci": "2.44",
+  "percentil": "86",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Algas"
+  ],
+  "tipo": "Experimental",
+  "score": 35,
+  "prioridade": "Contexto",
+  "motivo": "algas",
+  "frentes": [
+   "4-algas-modelo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.etap.2018.11.001",
+  "ano": "2019",
+  "autor": "Krishnan",
+  "autores": "Krishnan et al. (2019)",
+  "titulo": "Thymol exposure mediates pro-oxidant shift by regulating Nrf2 and apoptotic events in zebrafish (Danio rerio) embryos",
+  "revista": "Environmental Toxicology and Pharmacology",
+  "citacoes": 24,
+  "fwci": "0.53",
+  "percentil": "62",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Zebrafish"
+  ],
+  "tipo": "Experimental",
+  "score": 35,
+  "prioridade": "Contexto",
+  "motivo": "zebrafish",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1016/j.scitotenv.2023.168467",
+  "ano": "2024",
+  "autor": "Afonso",
+  "autores": "Afonso et al. (2024)",
+  "titulo": "Comparing the sensitivity of aquatic organisms relative to Daphnia sp. toward essential oils and crude extracts: A meta-analysis",
+  "revista": "The Science of The Total Environment",
+  "citacoes": 5,
+  "fwci": "0.13",
+  "percentil": "14",
+  "acesso": "aberto (bronze)",
+  "resumo": "resumos/afonso2023/RELATORIO.md",
+  "preprint": false,
+  "tags": [
+   "Daphnia",
+   "Revisão",
+   "Análogo"
+  ],
+  "tipo": "Revisão",
+  "score": 24,
+  "prioridade": "Complementar",
+  "motivo": "daphnia + revisão + análogo",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1111/are.15186",
+  "ano": "2021",
+  "autor": "Miura",
+  "autores": "Miura et al. (2021)",
+  "titulo": "Study of the chemical composition and ecotoxicological evaluation of essential oils in Daphnia magna with potential use in aquaculture",
+  "revista": "Aquaculture Research",
+  "citacoes": 18,
+  "fwci": "1.09",
+  "percentil": "69",
+  "acesso": "aberto (bronze)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Daphnia",
+   "Análogo"
+  ],
+  "tipo": "Experimental",
+  "score": 20,
+  "prioridade": "Complementar",
+  "motivo": "daphnia + análogo",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No DOAJ e no núcleo OpenAlex."
+ },
+ {
+  "doi": "10.1016/j.tplants.2016.10.005",
+  "ano": "2016",
+  "autor": "Pavela",
+  "autores": "Pavela & Benelli (2016)",
+  "titulo": "Essential Oils as Ecofriendly Biopesticides? Challenges and Constraints",
+  "revista": "Trends in Plant Science",
+  "citacoes": 1162,
+  "fwci": "8.12",
+  "percentil": "99",
+  "acesso": "aberto (bronze)",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Análogo"
+  ],
+  "tipo": "Contexto",
+  "score": 13,
+  "prioridade": "Complementar",
+  "motivo": "análogo",
+  "frentes": [
+   "6-complemento-externo"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ },
+ {
+  "doi": "10.1007/s10695-017-0410-z",
+  "ano": "2017",
+  "autor": "de Freitas Souza",
+  "autores": "de Freitas Souza et al. (2017)",
+  "titulo": "Citral and linalool chemotypes of Lippia alba essential oil as anesthetics for fish: a detailed physiological analysis of side effects during anesthetic recovery in silver catfish (Rhamdia quelen)",
+  "revista": "Fish Physiology and Biochemistry",
+  "citacoes": 85,
+  "fwci": "19.54",
+  "percentil": "99",
+  "acesso": "fechado",
+  "resumo": "",
+  "preprint": false,
+  "tags": [
+   "Peixe",
+   "Análogo"
+  ],
+  "tipo": "Experimental",
+  "score": 7,
+  "prioridade": "Complementar",
+  "motivo": "peixe + análogo",
+  "frentes": [
+   "5-estudos-ecotox"
+  ],
+  "revista_status": "OK",
+  "revista_obs": "No núcleo OpenAlex; não está no DOAJ."
+ }
+]

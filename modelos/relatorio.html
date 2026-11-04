@@ -4,41 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{TITULO}} — levantamento bibliográfico</title>
-<meta name="description" content="Referências conferidas, cienciometria e resumos de leitura integral.">
+<meta name="description" content="Referências conferidas, síntese, guia de leitura e resumos.">
 <style>
 :root{
   --bg:#f5f6f8; --card:#ffffff; --ink:#1a2028; --muted:#59636f; --line:#d9dde3;
   --accent:#1f4f72; --accent-soft:#e2ecf3; --good:#2c6b4a; --good-soft:#e1efe7;
-  --warn:#8a5a0b; --warn-soft:#f5ead3;
+  --warn:#8a5a0b; --warn-soft:#f5ead3; --bad:#8b2e2e; --bad-soft:#f6e3e3;
 }
 @media (prefers-color-scheme: dark){
   :root{
     --bg:#12161b; --card:#1a2028; --ink:#e6eaef; --muted:#9aa6b3; --line:#2e3742;
     --accent:#8fc0e3; --accent-soft:#1c2c3a; --good:#86c9a3; --good-soft:#1b3127;
-    --warn:#e2b765; --warn-soft:#352b18;
+    --warn:#e2b765; --warn-soft:#352b18; --bad:#e39a9a; --bad-soft:#3a2020;
     color-scheme:dark;
   }
 }
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
-header{background:linear-gradient(180deg,var(--accent-soft),transparent);border-bottom:1px solid var(--line);padding:36px 0 22px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+header{background:linear-gradient(180deg,var(--accent-soft),transparent);border-bottom:1px solid var(--line);padding:34px 0 20px}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
 h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:8px 0 8px;text-wrap:balance}
-.sub{color:var(--muted);margin:0 0 18px;max-width:80ch}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
-.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.kpi b{display:block;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
-.kpi span{font-size:13px;color:var(--muted)}
+.sub{color:var(--muted);margin:0 0 16px;max-width:85ch}
+.nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font-size:13px;text-decoration:none}
+.nav a:hover{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+.kpi b{display:block;font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
 main{padding:26px 0 40px}
-section{margin:0 0 30px}
-h2{font-size:20px;margin:0 0 12px}
-h3{font-size:16px;margin:18px 0 6px}
+section{margin:0 0 34px;scroll-margin-top:14px}
+h2{font-size:21px;margin:0 0 10px}
+h3{font-size:16px;margin:0 0 6px}
 a{color:var(--accent)}
-.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 12px}
-.toolbar input,.toolbar select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:inherit;min-width:220px}
-.toolbar input{flex:1}
-.toolbar .dica{font-size:13px;color:var(--muted)}
+.lead{max-width:85ch;margin:0 0 14px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.toolbar input,.toolbar select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;min-width:150px}
+.toolbar input{flex:1;min-width:220px}
+.dica{font-size:13px;color:var(--muted);margin:0 0 10px}
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
 table{width:100%;border-collapse:collapse;font-size:14px}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -48,13 +53,32 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 button{font:inherit;cursor:pointer}
 .ordenar{background:none;border:0;color:inherit;font:inherit;text-transform:inherit;letter-spacing:inherit;padding:0}
 .ordenar.ativo{color:var(--accent);text-decoration:underline}
-.ler{background:var(--accent-soft);color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600;text-decoration:none}
+.ler{background:var(--accent-soft);color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:2px 9px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap}
 .ler:hover{background:var(--accent);color:var(--bg)}
-.mudo{color:var(--muted);font-size:14px}
-.ok{background:var(--good-soft);border:1px solid var(--line);border-left:4px solid var(--good);border-radius:8px;padding:12px 14px}
-.aviso{background:var(--warn-soft);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:8px;padding:12px 14px}
+.mudo{color:var(--muted);font-size:13px}
+.meta{color:var(--muted);font-size:12px}
+.guia-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.card ul{margin:8px 0 0;padding-left:18px}
+.card li{margin:0 0 9px}
+.badge{display:inline-block;border-radius:999px;padding:1px 8px;font-size:11px;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.badge.essencial{background:var(--good-soft);color:var(--good)}
+.badge.contexto{background:var(--accent-soft);color:var(--accent)}
+.badge.complementar{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.tag{display:inline-block;border-radius:5px;padding:1px 6px;font-size:11px;background:var(--bg);border:1px solid var(--line);color:var(--muted)}
+.tag.comp{background:var(--good-soft);color:var(--good);border-color:transparent}
+.tag.modelo{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.tag.tipo{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.score{font-size:11px;color:var(--muted);margin-left:6px}
+.rev-ok{color:var(--good);font-weight:600}
+.rev-alerta{color:var(--bad);font-weight:700}
+.rev-conferir{color:var(--warn);font-weight:700}
+.rev-oficial{color:var(--accent);font-weight:600}
+.aviso{background:var(--warn-soft);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:8px;padding:11px 13px;margin:12px 0}
+.ok{background:var(--good-soft);border:1px solid var(--line);border-left:4px solid var(--good);border-radius:8px;padding:11px 13px}
 code{font-family:ui-monospace,Consolas,monospace;font-size:.92em;background:var(--accent-soft);padding:1px 5px;border-radius:4px}
-dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:900px;width:calc(100% - 28px);max-height:86vh;padding:0}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:920px;width:calc(100% - 28px);max-height:86vh;padding:0}
 dialog::backdrop{background:rgba(0,0,0,.55)}
 .dialogo-topo{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--card)}
 .dialogo-topo span{font-weight:700}
@@ -63,13 +87,17 @@ dialog::backdrop{background:rgba(0,0,0,.55)}
 .md h1,.md h2,.md h3{line-height:1.25}
 .md h1{font-size:22px;margin:18px 0 8px}
 .md h2{font-size:18px;margin:18px 0 6px}
-.md p{margin:0 0 10px;max-width:78ch}
+.md p{margin:0 0 10px;max-width:85ch}
 .md ul,.md ol{margin:0 0 12px;padding-left:22px}
 .md li{margin:0 0 5px}
 .md blockquote{margin:12px 0;padding:8px 14px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px}
-.md table{font-size:14px;margin:10px 0}
+.md table{font-size:13px;margin:10px 0}
 .md code{background:var(--accent-soft)}
+.sintese{max-width:92ch}
+.sintese h1{font-size:23px}
+.sintese h2{font-size:18px;margin-top:22px}
 footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);font-size:13px}
+details summary{cursor:pointer;font-weight:600;margin:6px 0}
 @media (max-width:640px){
   body{font-size:15px}
   th,td{padding:7px}
@@ -77,9 +105,10 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
 }
 @media print{
   header{background:none}
-  .toolbar,.ler,footer{display:none}
+  .toolbar,.ler,.nav,footer{display:none}
   .tablewrap{border:0}
   body{background:#fff;color:#000}
+  section{break-inside:avoid}
 }
 </style>
 </head>
@@ -90,36 +119,71 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
     <div class="eyebrow">Levantamento bibliográfico</div>
     <h1>{{TITULO}}</h1>
     <p class="sub">{{SUBTITULO}} · gerado em {{DATA}}</p>
+    <nav class="nav">
+      <a href="#guia">Guia de leitura</a>
+      <a href="#sintese">Síntese</a>
+      <a href="#referencias">Referências</a>
+      <a href="#revistas">Revistas</a>
+      <a href="#bases">Bases</a>
+      <a href="#pdfs">PDFs</a>
+    </nav>
     <div class="kpis">
       <div class="kpi"><b>{{N_REFS}}</b><span>referências com DOI</span></div>
       <div class="kpi"><b>{{N_ABERTOS}}</b><span>em acesso aberto</span></div>
-      <div class="kpi"><b>{{N_RESUMOS}}</b><span>resumos de leitura integral</span></div>
-      <div class="kpi"><b>{{N_BASES}}</b><span>bases e relatórios sem DOI</span></div>
+      <div class="kpi"><b>{{N_RESUMOS}}</b><span>resumos de leitura</span></div>
+      <div class="kpi"><b>{{N_ESSENCIAIS}}</b><span>essenciais</span></div>
+      <div class="kpi"><b>{{N_BASES}}</b><span>bases oficiais sem DOI</span></div>
       <div class="kpi"><b>{{N_FALTANDO}}</b><span>PDFs pendentes</span></div>
     </div>
   </div>
 </header>
 
 <main class="wrap">
-  <section>
+  <section id="guia">
+    <h2>Guia de leitura</h2>
+    <p class="lead">A lista está ordenada por <strong>utilidade para este projeto</strong>, não por citações. {{LEGENDA}} Use os blocos abaixo para começar.</p>
+{{GUIA}}
+    <div class="aviso"><strong>Como usar a tabela:</strong> comece pelos <em>Essenciais</em>; depois abra os <em>Contexto</em> que tenham revisão ou diretriz; deixe os <em>Complementar</em> (análogos, química, eficácia inseticida) para a discussão. A nota não mede a qualidade da revista nem do artigo — isso está na seção <a href="#revistas">Revistas</a>.</div>
+  </section>
+
+  <section id="sintese">
+    <h2>Síntese</h2>
+    <div class="md sintese">{{SINTESE}}</div>
+  </section>
+
+  <section id="referencias">
     <h2>Referências</h2>
     <div class="toolbar">
-      <input id="busca" type="search" placeholder="Buscar por autor, título, revista ou ano…" aria-label="Buscar referências">
+      <input id="busca" type="search" placeholder="Buscar por autor, título, revista, tema ou ano…" aria-label="Buscar referências">
+      <select id="prioridade" aria-label="Filtrar por utilidade">
+        <option value="">Toda a utilidade</option>
+{{OPCOES_PRIORIDADE}}
+      </select>
+      <select id="tema" aria-label="Filtrar por tema">
+        <option value="">Todo o tema</option>
+{{OPCOES_TEMA}}
+      </select>
       <select id="acesso" aria-label="Filtrar por acesso">
         <option value="">Todo o acesso</option>
 {{OPCOES_ACESSO}}
       </select>
-      <span class="dica">Clique em um cabeçalho para ordenar. Clique em “ler” para abrir o resumo.</span>
+      <select id="ordem" aria-label="Ordenar">
+        <option value="utilidade">Utilidade</option>
+        <option value="citacoes">Mais citados</option>
+        <option value="ano-novo">Ano: novos primeiro</option>
+        <option value="ano-antigo">Ano: antigos primeiro</option>
+      </select>
     </div>
+    <p class="dica">Clique em “ler” para abrir o resumo. A coluna Tema mostra o composto e o modelo; a nota entre parênteses é a soma descrita acima. Autores e ano seguem o registro do DOI; a OECD 236, por exemplo, aparece como 2025 porque o DOI serve à reedição.</p>
     <div class="tablewrap">
       <table id="tabela">
         <thead>
           <tr>
-            <th><button class="ordenar ativo" data-col="citacoes">Citações</button></th>
-            <th><button class="ordenar" data-col="fwci">FWCI</button></th>
-            <th><button class="ordenar" data-col="percentil">Percentil</button></th>
-            <th><button class="ordenar" data-col="ano">Ano</button></th>
+            <th><button class="ordenar ativo" data-col="score">Utilidade</button></th>
             <th>Referência</th>
+            <th>Tema</th>
+            <th><button class="ordenar" data-col="ano">Ano</button></th>
+            <th><button class="ordenar" data-col="citacoes">Citações</button></th>
             <th>Acesso</th>
             <th>Resumo</th>
           </tr>
@@ -130,10 +194,18 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
       </table>
     </div>
     <p class="mudo" id="vazio" hidden>Nenhuma referência com esse filtro.</p>
-    <p class="mudo">FWCI = citações normalizadas por área e ano (1 = média mundial). Percentil = posição entre os artigos da mesma área e ano. Dados do OpenAlex; autores e ano como no registro do DOI.</p>
   </section>
 
-  <section>
+  <section id="revistas">
+    <h2>Qualidade das revistas</h2>
+    {{REVISTAS_RESUMO}}
+    <details>
+      <summary>Ver a tabela completa ({{N_REVISTAS}} fontes)</summary>
+      {{REVISTAS_TABELA}}
+    </details>
+  </section>
+
+  <section id="bases">
     <h2>Bases e relatórios sem DOI</h2>
     <div class="tablewrap">
       <table>
@@ -145,14 +217,14 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
     </div>
   </section>
 
-  <section>
+  <section id="pdfs">
     <h2>PDFs que faltam</h2>
 {{FALTANDO}}
   </section>
 </main>
 
 <footer>
-  <div class="wrap">Gerado por <code>ferramentas/publicar.py</code> a partir de <code>tabela.json</code> e dos resumos. Os PDFs e o texto integral não são publicados. Confira cada número no artigo antes de citar.</div>
+  <div class="wrap">Gerado por <code>ferramentas/publicar.py</code> a partir de <code>tabela.json</code>, dos resumos, da síntese e da revisão de revistas. Os PDFs e o texto integral não são publicados. Confira cada número no artigo antes de citar.</div>
 </footer>
 
 <dialog id="dialogo">
@@ -171,35 +243,51 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
 const corpo = document.getElementById('tabela').tBodies[0];
 const linhas = Array.from(corpo.rows);
 const busca = document.getElementById('busca');
+const prioridade = document.getElementById('prioridade');
+const tema = document.getElementById('tema');
 const acesso = document.getElementById('acesso');
+const ordem = document.getElementById('ordem');
 const vazio = document.getElementById('vazio');
 
 function filtrar() {
   const q = busca.value.toLowerCase().trim();
+  const p = prioridade.value;
+  const t = tema.value.toLowerCase();
   const a = acesso.value;
   let n = 0;
   for (const tr of linhas) {
-    const ok = (!q || tr.textContent.toLowerCase().includes(q)) && (!a || tr.dataset.acesso === a);
+    const tags = (tr.dataset.tema || '').toLowerCase();
+    const ok = (!q || tr.textContent.toLowerCase().includes(q))
+      && (!p || tr.dataset.prioridade === p)
+      && (!t || tags.includes(t))
+      && (!a || tr.dataset.acesso === a);
     tr.hidden = !ok;
     if (ok) n++;
   }
   vazio.hidden = n > 0;
 }
-busca.addEventListener('input', filtrar);
-acesso.addEventListener('change', filtrar);
+[busca, prioridade, tema, acesso].forEach(function (e) { e.addEventListener('input', filtrar); });
 
-let ordem = {col: 'citacoes', dir: -1};
+function ordenarPor(col, dir) {
+  linhas.sort(function (x, y) {
+    return ((parseFloat(x.dataset[col]) || 0) - (parseFloat(y.dataset[col]) || 0)) * dir;
+  });
+  linhas.forEach(function (tr) { corpo.appendChild(tr); });
+}
 document.querySelectorAll('.ordenar').forEach(function (botao) {
   botao.addEventListener('click', function () {
     const col = botao.dataset.col;
-    ordem.dir = (ordem.col === col) ? -ordem.dir : -1;
-    ordem.col = col;
-    linhas.sort(function (x, y) {
-      return ((parseFloat(x.dataset[col]) || 0) - (parseFloat(y.dataset[col]) || 0)) * ordem.dir;
-    });
-    linhas.forEach(function (tr) { corpo.appendChild(tr); });
+    const dir = -1;
+    ordenarPor(col, dir);
     document.querySelectorAll('.ordenar').forEach(function (b) { b.classList.toggle('ativo', b === botao); });
+    ordem.value = (col === 'citacoes') ? 'citacoes' : (col === 'ano') ? 'ano-novo' : 'utilidade';
   });
+});
+ordem.addEventListener('change', function () {
+  if (ordem.value === 'utilidade') ordenarPor('score', -1);
+  else if (ordem.value === 'citacoes') ordenarPor('citacoes', -1);
+  else if (ordem.value === 'ano-novo') ordenarPor('ano', -1);
+  else if (ordem.value === 'ano-antigo') ordenarPor('ano', 1);
 });
 
 const dialogo = document.getElementById('dialogo');

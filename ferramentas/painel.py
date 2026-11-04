@@ -4,18 +4,21 @@ Uso: python painel.py <pasta-do-exemplo>
 
 Lê <pasta>/cienciometria.csv, <pasta>/referencias.bib (autores e ano, como no
 registro do DOI), <pasta>/REFERENCIAS.md (bases e relatórios sem DOI) e
-<pasta>/resumos/*/RELATORIO.md. Grava <pasta>/TABELA.md, ordenada por citações,
-com uma seção final para as bases sem DOI, e <pasta>/tabela.json (usada pelo site).
+<pasta>/resumos/*/RELATORIO.md. Grava <pasta>/TABELA.md, ordenada por
+utilidade para o projeto, com uma seção final para as bases sem DOI, e
+<pasta>/tabela.json (usada pelo site).
 """
 import argparse
 import csv
 import json
 import re
 import sys
+import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import doi as doilib  # noqa: E402
+import relevancia  # noqa: E402
 from projeto import barrar_exemplo, opcao_exemplo  # noqa: E402
 
 ACESSO = {"gold": "aberto (revista)", "diamond": "aberto (sem taxa)", "hybrid": "aberto (híbrido)",
@@ -57,6 +60,14 @@ def formatar_autores(autores, ano):
     autores = [a for a in autores if a]
     if not autores:
         return ""
+    # Autores corporativos: o .bib os trata como um nome só e o "sobrenome" sai errado.
+    primeiro = autores[0].lower()
+    if "food safety authority" in primeiro or primeiro == "authority":
+        return f"EFSA ({ano})" if ano else "EFSA"
+    if "organization for economic" in primeiro or primeiro == "oecd":
+        return f"OECD ({ano})" if ano else "OECD"
+    if "environmental protection agency" in primeiro or primeiro in ("epa", "us epa"):
+        return f"EPA ({ano})" if ano else "EPA"
     if len(autores) == 1:
         nome = autores[0]
     elif len(autores) == 2:
@@ -130,7 +141,14 @@ def main(argv=None):
     # O DOI de cada resumo está no PEDIDO.md que o preparar_resumos.py escreveu.
     resumos, preprint = {}, set()
     for rel in (pasta / "resumos").glob("*/RELATORIO.md"):
-        m = re.search(r"DOI deste artigo: (\S+)", (rel.parent / "PEDIDO.md").read_text(encoding="utf-8"))
+        pedido = rel.parent / "PEDIDO.md"
+        if not pedido.exists():
+            continue
+        try:
+            texto_pedido = pedido.read_text(encoding="utf-8")
+        except (OSError, UnicodeError):
+            continue
+        m = re.search(r"DOI deste artigo: (\S+)", texto_pedido)
         if not m:
             continue
         d = m.group(1).lower()
@@ -153,18 +171,26 @@ def main(argv=None):
             "acesso": ACESSO.get(r.get("acesso", ""), r.get("acesso", "")),
             "resumo": resumos.get(d, ""), "preprint": d in preprint,
         })
-    linhas.sort(key=lambda l: -l["citacoes"])
-    md = ["# Referências por citação", "",
-          "Fonte: OpenAlex. FWCI = citações normalizadas por área e ano (1 = média mundial). "
-          "Percentil = posição do artigo entre os da mesma área e ano (99 = entre os 1% mais citados). "
-          "Autores e ano como no registro do DOI.", "",
-          "| Citações | FWCI | Percentil | Autores (ano) | Título | Revista | Acesso | Resumo |",
-          "|---:|---:|---:|---|---|---|---|---|"]
+    if (pasta / "relevancia.json").exists():
+        relevancia.enriquecer(pasta, linhas)
+    else:
+        relevancia.generico(pasta, linhas)
+    linhas.sort(key=lambda l: (-l.get("score", 0), -l["citacoes"]))
+    nota = relevancia.legenda(pasta) + " Autores e ano seguem o registro do DOI."
+    if (pasta / "relevancia.json").exists():
+        nota += " Quando a editora reeditou a diretriz (ex.: OECD 236), o ano pode ser o da reedição."
+    nota += " Fonte das métricas: OpenAlex."
+    md = ["# Referências por utilidade", "", nota, "",
+          "| Utilidade | Referência | Tema | Ano | Acesso | Citações | Resumo |",
+          "|---:|---|---|---:|---|---:|---|"]
     for l in linhas:
         res = f"[ler]({l['resumo']})" + (" (preprint)" if l["preprint"] else "") if l["resumo"] else ""
-        md.append(f"| {l['citacoes']} | {l['fwci']} | {l['percentil']} | {celula(l['autores'])} | "
-                  f"[{celula(l['titulo'])}](https://doi.org/{l['doi']}) | {celula(l['revista'])} | "
-                  f"{l['acesso']} | {res} |")
+        tema = " · ".join(l.get("tags", [])) or "—"
+        util = f"**{l.get('prioridade', '—')}** ({l.get('score', 0)})"
+        doi_url = urllib.parse.quote(str(l["doi"]), safe="/")
+        md.append(f"| {util} | [{celula(l['autores'])}](https://doi.org/{doi_url}). "
+                  f"[{celula(l['titulo'])}](https://doi.org/{doi_url}). *{celula(l['revista'])}* | "
+                  f"{celula(tema)} | {l['ano']} | {l['acesso']} | {l['citacoes']} | {res} |")
     bases = bases_sem_doi((pasta / "REFERENCIAS.md").read_text(encoding="utf-8"))
     if bases:
         md += ["", "## Bases e relatórios sem DOI", "",
